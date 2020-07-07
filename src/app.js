@@ -3,6 +3,7 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {View, Text, SafeAreaView} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 function HomeScreen() {
   return (
@@ -22,13 +23,15 @@ function DetailsScreen() {
 
 const Stack = createStackNavigator();
 
+const Tab = createBottomTabNavigator();
+
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Healtius" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
-      </Stack.Navigator>
+      <Tab.Navigator>
+        <Tab.Screen name="Home" component={HomeScreen} />
+        <Tab.Screen name="Settings" component={DetailsScreen} />
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }
