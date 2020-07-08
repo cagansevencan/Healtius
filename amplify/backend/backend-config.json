@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"healtius16bbe166": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
