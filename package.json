@@ -30,7 +30,9 @@
     "react-navigation": "^4.4.0",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -40,6 +42,7 @@
     "eslint": "^6.5.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.58.0",
+    "react-native-safe-area-view": "^1.1.1",
     "react-test-renderer": "16.11.0"
   },
   "jest": {

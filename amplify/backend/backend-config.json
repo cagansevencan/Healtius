@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"healtius16bbe166": {
+		"healtius151e48dd": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],

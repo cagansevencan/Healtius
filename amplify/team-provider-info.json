@@ -1,19 +1,19 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-healtius-dev-211851-authRole",
-            "UnauthRoleArn": "arn:aws:iam::425120418030:role/amplify-healtius-dev-211851-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::425120418030:role/amplify-healtius-dev-211851-authRole",
-            "Region": "eu-west-1",
-            "DeploymentBucketName": "amplify-healtius-dev-211851-deployment",
-            "UnauthRoleName": "amplify-healtius-dev-211851-unauthRole",
-            "StackName": "amplify-healtius-dev-211851",
-            "StackId": "arn:aws:cloudformation:eu-west-1:425120418030:stack/amplify-healtius-dev-211851/cd66fe60-c0c9-11ea-9173-06c001d97fde",
-            "AmplifyAppId": "d15n3b68z0uv1c"
+            "AuthRoleName": "amplify-healtius-dev-02712-authRole",
+            "UnauthRoleArn": "arn:aws:iam::425120418030:role/amplify-healtius-dev-02712-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::425120418030:role/amplify-healtius-dev-02712-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-healtius-dev-02712-deployment",
+            "UnauthRoleName": "amplify-healtius-dev-02712-unauthRole",
+            "StackName": "amplify-healtius-dev-02712",
+            "StackId": "arn:aws:cloudformation:us-west-2:425120418030:stack/amplify-healtius-dev-02712/3a614e60-c1ad-11ea-b60e-0a233d312e0a",
+            "AmplifyAppId": "dl2pmb9sye59z"
         },
         "categories": {
             "auth": {
-                "healtius16bbe166": {
+                "healtius151e48dd": {
                     "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2645348679053172\",\"client_secret\":\"fb7e665eb237a994690e2f6cb07f4689\"},{\"ProviderName\":\"Google\",\"client_id\":\"349444632864-3i6vn5ekfie0t1qaal5m8bffqm7m95qg.apps.googleusercontent.com\",\"client_secret\":\"of04xZ0iFrEj2e6xafVdWzuf\"}]"
                 }
             }

@@ -78,6 +78,8 @@ target 'Healtius' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
+  pod 'RNAWSCognito', :path => '../node_modules/amazon-cognito-identity-js'
+
   target 'HealtiusTests' do
     inherit! :complete
     # Pods for testing

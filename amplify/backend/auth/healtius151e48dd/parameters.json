@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "healtius16bbe166_identitypool_16bbe166",
+    "identityPoolName": "healtius151e48dd_identitypool_151e48dd",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "healti16bbe166",
-    "userPoolName": "healtius16bbe166_userpool_16bbe166",
+    "resourceNameTruncated": "healti151e48dd",
+    "userPoolName": "healtius151e48dd_userpool_151e48dd",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "healti16bbe166_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "healti151e48dd_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "16bbe166",
-    "resourceName": "healtius16bbe166",
+    "sharedId": "151e48dd",
+    "resourceName": "healtius151e48dd",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -50,13 +50,13 @@
     "usernameAttributes": [
         "email"
     ],
-    "hostedUIDomainName": "healtius",
+    "hostedUIDomainName": "healtius151e48dd-151e48dd",
     "authProvidersUserPool": [
         "Facebook",
         "Google"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}},{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:4200/auth/\"],\"LogoutURLs\":[\"http://localhost:4200/auth/signin/\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
     "userPoolGroupList": [],
     "dependsOn": []
 }
